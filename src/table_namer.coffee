@@ -12,7 +12,7 @@ homeDir = path.homedir()
 csvFile = process.cwd() + '/fixtures/ccpd_table_synonyms.csv'
 baseDir = path.join homeDir, "Projects", "ccpd-platform"
 inDir = path.join baseDir, "_com"
-outDir = path.join baseDir, "_com_new"
+outDir = path.join baseDir, "_com"
 mkdirp.sync outDir
 
 walk = (dir, done) ->
