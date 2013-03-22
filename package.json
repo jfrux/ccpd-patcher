@@ -1,0 +1,14 @@
+{
+	"name":"ccpd-code-patcher",
+	"version":"0.0.1",
+	"dependencies": {
+		"walk":"latest",
+		"fast-csv":"latest",
+		"mkdirp":"latest",
+		"async":"latest",
+		"path-extra":"latest"
+	},
+	"devDependencies":{
+		"coffee-script":"latest"
+	}
+}
